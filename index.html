@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Gustavo Saudade</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/index.css" />
+    
+    <!-- load angular and subpackages route via CDN -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./lib/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/bootstrap.js"></script>
+
+    <script src="index.js"></script>
+    <script src="./js/controllers/homeController.js"></script>
+  </head>
+
+  <body>
+      <!-- MAIN CONTENT AND INJECTED VIEWS -->
+      <div id="main">
+          <div ng-view></div>
+      </div>
+      
+      <script type="text/javascript">
+          (function onLoad () {
+
+              var bootstrap = function () {
+                  angular.bootstrap(document, ["curriculumApp"]);
+              };
+
+              var eventName = "DOMContentLoaded";
+              document.addEventListener(eventName, bootstrap, false);
+          })();
+      </script>
+  </body>
+</html>

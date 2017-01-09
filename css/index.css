@@ -1,0 +1,102 @@
+@font-face {
+    font-family: fonteUm;
+    src: url(../fonts/Capsmall.ttf);
+}
+
+@font-face {
+    font-family: fonteDois;
+    src: url(../fonts/Capsmall_clean.ttf);
+}
+
+@font-face {
+    font-family: fonteTres;
+    src: url(../fonts/CaptureIt.ttf);
+}
+
+@font-face {
+    font-family: fonteQuatro;
+    src: url(../fonts/coolvetica.ttf);
+}
+
+body {
+    background: url(../img/fundo.jpeg) center no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 95%;
+    height: 80%;
+    margin-left: 2.5%;
+}
+
+.name {
+    text-align: center;
+    font-family: fonteTres;
+    color: #CCC;
+}
+
+section {
+    
+}
+
+section h3 {
+    background-color: rgba(245, 100, 100, 0.6);
+    border-radius: 5px;
+    font-family: fonteTres;
+    color: #CCC;
+}
+
+section p, h3{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.about-me h3 {
+    border: solid #333;
+}
+
+.skills h3 {
+    border: solid #263254;
+}
+
+.next-steps h3 {
+    border: solid #3d5187;
+}
+
+.carrer h3 {
+    border: solid #536cb2;    
+}
+
+.carrer {
+    padding-bottom: 1%;
+}
+
+#contato h3 {
+   border: solid #7a9cf9; 
+}
+
+#contato {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+contact a {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+footer {
+    width: 95%;
+    height: 15%;
+    margin-left: 2.5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
