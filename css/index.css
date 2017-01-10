@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: fonteDois;
-    src: url(../fonts/Capsmall_clean.ttf);
+    src: url(../fonts/webDeveloper.ttf);
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: fonteQuatro;
-    src: url(../fonts/coolvetica.ttf);
+    src: url(../fonts/Prototype.ttf);
 }
 
 body {
@@ -24,29 +24,40 @@ body {
 }
 
 .content {
+    position: relative;
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFF;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    width: 95%;
-    height: 80%;
-    margin-left: 2.5%;
+    width: 99%;
+    height: 85%;
+    margin-left: 0.5%;
 }
 
 .name {
     text-align: center;
+    padding-top: 0.5%;
+}
+
+section h1 {
     font-family: fonteTres;
+    font-size: 40px;
     color: #CCC;
 }
 
-section {
-    
+section h2 {
+    font-family: fonteDois;
 }
 
 section h3 {
-    background-color: rgba(245, 100, 100, 0.6);
     border-radius: 5px;
     font-family: fonteTres;
+    color: #CCC;
+    border: solid #333;
+}
+
+section p {
+    font-family: fonteQuatro;
     color: #CCC;
 }
 
@@ -56,19 +67,19 @@ section p, h3{
 }
 
 .about-me h3 {
-    border: solid #333;
+    background-color: rgba(245, 100, 100, 0.6);
 }
 
 .skills h3 {
-    border: solid #263254;
+    background-color: rgba(102, 0, 204, 0.6);
 }
 
 .next-steps h3 {
-    border: solid #3d5187;
+    background-color: rgba(102, 178, 255, 0.6);
 }
 
 .carrer h3 {
-    border: solid #536cb2;    
+    background-color: rgba(0, 204, 204, 0.6);    
 }
 
 .carrer {
@@ -76,7 +87,7 @@ section p, h3{
 }
 
 #contato h3 {
-   border: solid #7a9cf9; 
+   background-color: rgba(0, 153, 76, 0.6); 
 }
 
 #contato {
@@ -90,13 +101,19 @@ contact a {
 }
 
 footer {
-    width: 95%;
+    width: 99%;
     height: 15%;
-    margin-left: 2.5%;
+    margin-left: 0.5%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFF;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    #Autor {
+        font-size: 30px;
+    }
 }
 
