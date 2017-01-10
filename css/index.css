@@ -30,7 +30,6 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     width: 99%;
-    height: 85%;
     margin-left: 0.5%;
 }
 
@@ -59,6 +58,11 @@ section h3 {
 section p {
     font-family: fonteQuatro;
     color: #CCC;
+}
+
+section li {
+    font-family: fonteQuatro;
+    color: #ccc;
 }
 
 section p, h3{
@@ -90,11 +94,6 @@ section p, h3{
    background-color: rgba(0, 153, 76, 0.6); 
 }
 
-#contato {
-    padding-top: 1%;
-    padding-bottom: 3%;
-}
-
 contact a {
     margin-top: 5%;
     margin-left: 5%;
@@ -113,7 +112,19 @@ footer {
 
 @media (max-width: 500px) {
     #Autor {
-        font-size: 30px;
+        font-size: 26px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    section p {
+      font-size: 13px;
+    }
+
+    section li {
+      font-size: 13px;
     }
 }
 
