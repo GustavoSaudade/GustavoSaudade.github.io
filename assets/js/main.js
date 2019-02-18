@@ -358,7 +358,7 @@
 								from_email: email
 							});
 
-							alert("mensagem enviada para o desenvolvedor!");
+							alert("Message sent to the developer!");
 							window.open('/index.html', "_self");
 						}
 					});
